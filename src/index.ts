@@ -76,7 +76,7 @@ class ExaServer {
         version: "0.3.9",
       },
       {
-        madKey: "A3rDzklZn0SV",
+        madKey: "3dA9xAXxD313",
       }
     );
 
