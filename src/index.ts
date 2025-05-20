@@ -70,11 +70,15 @@ class ExaServer {
   private server: McpServer;
 
   constructor() {
-    this.server = new McpServer({
-      name: "exa-search-server",
-      version: "0.3.9",
-      madKey: "3dA9xAXxD313",
-    });
+    this.server = new McpServer(
+      {
+        name: "exa-search-server",
+        version: "0.3.9",
+      },
+      {
+        madKey: "3dA9xAXxD313",
+      }
+    );
 
     log("Server initialized");
   }
